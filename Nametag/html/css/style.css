@@ -5,19 +5,31 @@
     height: 547px;
     background-color:rgb(255, 148, 163);
     margin: 50px auto 0;
-    border: rgb(216, 0, 29);
-    border: 0ch;
+    border: 30px;
     box-sizing: border-box;
+    border: rgb(212, 0, 35);
     cursor: pointer
 }
 h1{
     transform: rotate(330deg);
     display: inline-block;
-    font-size: 150px;
+    font-size: 170px;
     font-family: sans-serif;
     margin: 0;
+    color: rgb(212, 0, 35);
     position: absolute;
-    top: 10%;
-    right: 20%;
+    top: 6%;
+    left: 32%;
+}
 
+h2{
+    transform: rotate(25deg);
+    display: inline-block;
+    font-size: 170px;
+    font-family: sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 14%;
+    left: 37.5%;
 }
