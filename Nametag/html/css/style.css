@@ -5,8 +5,7 @@
     height: 547px;
     background-color:rgb(255, 148, 163);
     margin: 50px auto 0;
-    border: 30px;
-    box-sizing: border-box;
+    
     border: rgb(212, 0, 35);
     cursor: pointer
 }
@@ -30,6 +29,63 @@ h2{
     margin: 0;
     color: rgb(212, 0, 35);
     position: absolute;
-    top: 14%;
+    top: 12%;
     left: 37.5%;
+}
+h3{
+    transform: rotate(23deg);
+    display: inline-block;
+    font-size:170px;
+    font-family: sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 6.3%;
+    left: 42%;
+}
+
+h4{
+    transform: rotate(15deg);
+    display: inline-block;
+    font-size:170px;
+    font-family: sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
+
+h5{
+    transform: rotate(-5deg);
+    display: inline-block;
+    font-size:170px;
+    font-family: sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 26%;
+    left: 35%;
+}
+
+h6{
+    transform: rotate(-8deg);
+    display: inline-block;
+    font-size:170px;
+    font-family: sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 22.5%;
+    left: 42%;
+}
+
+
+#nametag-border{
+    width: 510px;
+    height: 547px;
+    background-color: rgb(212, 0, 35);
+    margin: 50px 0;
+    top: 10%;
+    right: 120%;
 }
