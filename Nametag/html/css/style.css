@@ -11,7 +11,14 @@
     
 }
 
-h1 span{
-    transform: rotate(-330deg);
+#left-portion {
+
+}
+
+h1{
+    transform: rotate(330deg);
     display: inline-block;
+    font-size: 255px;
+    font-family: sans-serif;
+    margin: 0;
 }
