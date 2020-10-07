@@ -235,12 +235,56 @@
     z-index: 22;
     position: absolute;
     color: rgb(255, 255, 255);
-    left: 43%;
+    left: 50%;
+    top: 14%;
 }
 
 h1 {
     font-size: 48px;
     font-family: 'Sahitya-bold';
-    top: 10%;
+    position: relative;
+    margin: 0%;}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Sahitya';
 }
 
+h3 {
+    font-size: 24px;
+    font-family: 'Sahitya';
+}
+
+h4{
+    top: 350px;
+    position: absolute;
+    left: 60%;
+    font-size: 24px;
+    font-family: 'Sahitya';
+}
+
+h5{
+    top: 380px;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Sahitya';
+    left: 60%
+}
+
+h6{
+    top: 390px;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Sahitya';
+    left: 45%
+}
+
+.straight-line{
+    width: 200px;
+    height: 8px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 170px;
+    left: 945px;
+    z-index: 23;
+}
