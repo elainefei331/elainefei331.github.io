@@ -1,1 +1,95 @@
-body {}
+
+
+#nametag-container{
+    width: 847px;
+    height: 547px;
+    border:  rgb(212, 0, 35);
+    background-color:rgb(255, 148, 163);
+    margin: 50 auto 0;
+    box-sizing: border-box;
+    border: rgb(212, 0, 35);
+    border-style: solid;
+    border-width: 15px;
+    
+}
+
+h1{
+    transform: rotate(330deg);
+    display: inline-block;
+    font-size: 144px;
+    font-family: 'Rockwell-Extrabold', sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top:7%;
+    left: 24%;
+}
+
+h2{
+    transform: rotate(25deg);
+    display: inline-block;
+    font-size: 144px;
+    font-family: 'Rockwell-Extrabold',sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 16.7%;
+    left: 31%;
+}
+h3{
+    transform: rotate(23deg);
+    display: inline-block;
+    font-size:144px;
+    font-family: 'Rockwell-Extrabold',sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 6.3%;
+    left: 37.5%;
+}
+
+h4{
+    transform: rotate(15deg);
+    display: inline-block;
+    font-size:144px;
+    font-family:'Rockwell-Extrabold', sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+h5{
+    transform: rotate(-5deg);
+    display: inline-block;
+    font-size:144px;
+    font-family:'Rockwell-Extrabold', sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 41%;
+    left: 29%;
+}
+
+h6{
+    transform: rotate(-8deg);
+    display: inline-block;
+    font-size:144px;
+    font-family:'Rockwell-Extrabold',sans-serif;
+    margin: 0;
+    color: rgb(212, 0, 35);
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+
+
+#nametag-border{
+    width: 510px;
+    height: 547px;
+    background-color: rgb(212, 0, 35);
+    margin: 50px 0;
+    top: 10%;
+    left: 120%;
+}
