@@ -1,5 +1,34 @@
-body {background-color: black;}
+body 
+    {background-color: black;}
 
-#lyrics{
+#page{
     color: blanchedalmond;
-    font-family: 'RainbowUniverse';}
+    font-family: 'RainbowUniverse';
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    }
+
+    .parallax {
+     background: url('../image/moon1.jpg') no-repeat center;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 500px;
+     margin-left: 50px;
+     margin-right: 50px;
+    }
+
+    .A {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+        from{
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff6a5, 0 0 40px #fff27b, 0 0 50px #fff459, 0 0 60px #ffdc42, 0 0 70px #ffd901;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #ffd901, 0 0 40px #ffdc42, 0 0 50px #fff459, 0 0 60px #fff27b, 0 0 70px #fff6a5, 0 0 80px #fff;
+        }
+      }
