@@ -1,5 +1,10 @@
 body 
-    {background-color: black;}
+    {background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 650%;
+    }
 
 #page{
     color: blanchedalmond;
@@ -13,17 +18,18 @@ body
      background: url('../image/moon1.jpg') no-repeat center;
      background-size: cover;
      background-attachment: fixed;
-     height: 500px;
+     height: 400px;
      margin-left: 50px;
      margin-right: 50px;
     }
+
 
     .A {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
     }
-    
+
     @-webkit-keyframes glow {
         from{
             text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff6a5, 0 0 40px #fff27b, 0 0 50px #fff459, 0 0 60px #ffdc42, 0 0 70px #ffd901;
@@ -32,3 +38,31 @@ body
           text-shadow: 0 0 20px #fff, 0 0 30px #ffd901, 0 0 40px #ffdc42, 0 0 50px #fff459, 0 0 60px #fff27b, 0 0 70px #fff6a5, 0 0 80px #fff;
         }
       }
+    
+    .C {
+    cursor: pointer;
+    animation: bounce 10s infinite;
+    }
+
+    @keyframes bounce {
+        20%, 50%, 80%, to{
+            transform: translateY(0);
+        }
+        40%{
+            transform: translateY(-30px);
+        }
+        70%{
+            transform: translateY(-15px);
+        }
+        90%{
+            transform: translateY(-4px);
+        }
+    }
+
+    .E span{
+        color: palevioletred;
+    }
+
+    .D {
+        background-image: url('../image/space-stars-galaxy-illustration-wallpaper.jpg');
+    }
