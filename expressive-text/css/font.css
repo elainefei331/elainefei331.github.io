@@ -1,0 +1,6 @@
+@font-face{
+    font-family: 'RainbowUniverse';
+    src:url('../font/RainbowUniverse.woff2') format('woff2'),
+    url('../font/RainbowUniverse.woff') format('woff');
+    font-weight: normal;
+}
