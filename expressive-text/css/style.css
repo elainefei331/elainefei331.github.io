@@ -1,5 +1,5 @@
 body 
-    {background-color: black;
+    {background-image: linear-gradient(rgb(0, 0, 0),rgb(10,11,58));
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -9,9 +9,10 @@ body
 #page{
     color: blanchedalmond;
     font-family: 'RainbowUniverse';
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     margin-top: 100px;
+    line-height: 150px;
     }
 
     .parallax {
@@ -38,10 +39,9 @@ body
           text-shadow: 0 0 20px #fff, 0 0 30px #ffd901, 0 0 40px #ffdc42, 0 0 50px #fff459, 0 0 60px #fff27b, 0 0 70px #fff6a5, 0 0 80px #fff;
         }
       }
+
     
-    .C {
-    cursor: pointer;
-    animation: bounce 10s infinite;
+    .C {    animation: bounce 10s infinite;
     }
 
     @keyframes bounce {
@@ -63,6 +63,44 @@ body
         color: palevioletred;
     }
 
-    .D {
+    .G {
         background-image: url('../image/space-stars-galaxy-illustration-wallpaper.jpg');
+    }
+
+    .I {
+        background-image: url(../image/heart.png);
+        background-position: center;
+        background-size: contain;
+    }
+
+    .K span{
+        color: palevioletred;
+    }
+
+    .parallax2 {
+        background: url('../image/moon2.jpg') no-repeat center;
+        background-size: contain;
+        background-attachment: fixed;
+        height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+       }
+
+
+       .O {
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+        }
+    
+
+    .R {
+        color: palevioletred;
+    }
+
+
+    footer {
+        font-size: 40px;
+        text-align: right;
+        margin-top: 40px;
     }
