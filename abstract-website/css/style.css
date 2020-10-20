@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(230, 0, 19);
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-right: 300px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 150px;
+    height: 50px;
+    background-color:rgb(255, 211, 211);
+    font-size: 32px;
+    margin: 0;
+}
+
+#visit{
+    width: 30px;
+    height: 20px;
+    background-color: rgb(255, 181, 181);
+    top: 30%;
+    padding: 0%;
+}
+
+#exhibitons{
+    width: 150px;
+    height: 20px;
+    background-color: rgb(255, 181, 181);
+    padding-top: 125px;
+}
+
+#art{
+    width: 25px;
+    height: 20px;
+    background-color: rgb(255, 181, 181);
+    top: 125px;
+}
+
+#learn{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(255, 181, 181);
+    top: 25px;
+}
+
+#shop{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(255, 181, 181);
+    top: 25px;
+    left: 400px;
+}
+
+#search{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(255, 181, 181);
+    top: 25px;
+}
+
+#buyticket{
+    width: 30px;
+    height: 10px;
+    background-color: rgb(255, 181, 181);
+    top: 5%;
+}
+
+#becomemember{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(255, 181, 181);
+}
+
+#makedonation{
+    width: 40px;
+    height: 10px;
+    background-color: rgb(255, 181, 181);
+}
+
+main{
+    display: flex;
+}
+
+#content{
+        margin: 0%;
+        padding: 0%;
+}
+
+#mainvid{
+    width: 100%;
+    height: 40%;    
+    background-color: #a4d8d8;
+}
