@@ -26,7 +26,7 @@ nav{
     width: 30px;
     height: 20px;
     background-color: rgb(255, 181, 181);
-    top: 30%;
+    margin-top: 25px;
     padding: 0%;
 }
 
@@ -34,43 +34,40 @@ nav{
     width: 150px;
     height: 20px;
     background-color: rgb(255, 181, 181);
-    padding-top: 125px;
+    padding: 0%;
+    margin-top: 25px;
+    margin-left: 160px;
 }
 
 #art{
     width: 25px;
     height: 20px;
     background-color: rgb(255, 181, 181);
-    top: 125px;
+    margin-top: 25px;
+    padding: 0%;
 }
 
 #learn{
     width: 70px;
     height: 20px;
     background-color: rgb(255, 181, 181);
-    top: 25px;
+    margin-top: 25px;
+    padding: 0%;
 }
 
 #shop{
     width: 50px;
     height: 20px;
     background-color: rgb(255, 181, 181);
-    top: 25px;
-    left: 400px;
-}
-
-#search{
-    width: 50px;
-    height: 20px;
-    background-color: rgb(255, 181, 181);
-    top: 25px;
+    margin-top: 25px;
+    padding: 0%;
 }
 
 #buyticket{
     width: 30px;
     height: 10px;
     background-color: rgb(255, 181, 181);
-    top: 5%;
+    
 }
 
 #becomemember{
@@ -96,6 +93,119 @@ main{
 
 #mainvid{
     width: 100%;
-    height: 40%;    
-    background-color: #a4d8d8;
+    height: 500px;    
+    background-color: #ffa6ad;
+}
+
+.poster header{
+    width: 350px;
+    height: 90px;
+    background: rgb(255, 164, 79);
+    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-size: 50px;
+    color: white;
+}
+
+.poster ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 20px;
+    margin: 0;
+}
+
+.poster li{
+    background-color: rgb(255, 123, 61);
+    height: 350px;
+    width: 280px;
+}
+
+#mainvid2{
+    width: 60%;
+    height: 350px;    
+    background-color: #ffa6ad;
+    margin: 50px;
+    align-content: center;
+}
+
+.intro-website ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6);
+    row-gap: 30px;
+    margin: 0px;
+    align-items: center;
+}
+
+.intro-website li{
+    width: 1000px;
+    height: 400px;
+    background: #ff727e;
+}
+
+.poster2 header{
+    width: 350px;
+    height: 40px;
+    background: rgb(255, 164, 79);
+    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 30px;
+    color: white;
+}
+
+.poster2 ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 20px;
+    margin: 0;
+}
+
+.poster2 li{
+    background-color: rgb(255, 123, 61);
+    height: 350px;
+    width: 280px;
+}
+
+#bottomsec {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(230, 0, 19);
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+#bottom1 {
+    margin: 0px;
+    position: relative;
+    background-color: rgb(255, 224, 195);
+    width: 40%;
+    height: 450px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#bottom2 {
+    margin: 0px;
+    position: absolute;
+    background-color: rgb(255, 209, 166);
+    width: 30%;
+    height: 230px;
+}
+
+#footer ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    margin: 20px;
+}
+
+#footer li{
+    background-color: rgb(255, 123, 61);
+    height: 10px;
+    width: 20px;
 }
