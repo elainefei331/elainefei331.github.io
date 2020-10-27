@@ -98,112 +98,49 @@ nav{
     background-color: rgb(255, 181, 181);
 }
 
-
-#content{
+#content1 {
     margin: 0%;
     padding: 0%;
     width: 100%;
 }
 
-#mainvid{
-    width: 100%;
-    height: 500px;    
-    background-color: #ffa6ad;
-}
-
-
-@media (max-width: 768px){.poster
-
-}
-
-
-.poster header{
-    width: 30%;
-    height: 10%;
-    display: flex;
-    background: rgb(255, 164, 79);
-    margin-bottom: 80px;
-    margin-top: 40px;
-    margin-left: 15%;
-    font-size: 50px;
-    color: white;
-}
-
-.poster ul{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    column-gap: 20px;
-    margin: 0;
-    padding: 0;
-}
-
-.poster li{
-    background-color: rgb(255, 123, 61);
-    height: 350px;
-    /* width: 280px; */
-}
-
-#mainvid2{
+#poster {
     width: 60%;
-    height: 350px;    
+    height: 480px;    
     background-color: #ffa6ad;
-    margin: 10%;
-    align-content: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.intro-website ul{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(6);
-    row-gap: 30px;
-    margin: 0px;
-    align-items: center;
-    padding: 0;
+#ticket {
+    width: 7%;
+    height: 30px;    
+    background-color: #ff5967;
+    margin-top: 20px;
+    margin-left: 20%;
 }
 
-.intro-website li{
-    height: 400px;
-    background: #ff727e;
+#paragraph {
+    width: 40%;
+    height: 1000px;
+    background-color: #da313f;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media (max-width: 1024px){.poster2
+#bottomad{
+    width: 80%;
+    height: 300px;
+    background-color: #ff939c;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-    .poster2 header{
-        width: 25%;
-        height: 5%;
-        background: rgb(255, 164, 79);
-        margin-bottom: 80px;
-        margin-top: 40px;
-        font-size: 30px;
-        color: white;
-    }
-
-    .poster2 ul{
-        list-style: none;
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-        column-gap: 20px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .poster2 li{
-        background-color: rgb(255, 123, 61);
-        height: 350px;
-    }
 
 #bottomsec {
-    width: 100%;
-    height: 80px;
-    background-color: rgb(230, 0, 19);
-    margin-top: 50px;
-    box-sizing: border-box;
-}
-
-#bottom1 {
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
@@ -214,4 +151,3 @@ nav{
     box-sizing: border-box;
     padding: 20px;
 }
-
