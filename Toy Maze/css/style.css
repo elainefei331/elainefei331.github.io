@@ -227,3 +227,104 @@ p {
     top: 60%;
     right: 33%;
 }
+
+#rec15 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    left: 38%;
+}
+
+#rec16 {
+    height: 50px;
+    width: 90px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 87.5%;
+    left: 36.5%;
+}
+
+#rec17 {
+    height: 50px;
+    width: 270px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 100.55%;
+}
+
+#rec18 {
+    height: 50px;
+    width: 80px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 89%;
+    left: 45%;
+}
+
+
+#rec19 {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    left: 38%;
+}
+
+#rec20 {
+    width: 50px;
+    height:130px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 89.62%;
+    left: 45%;
+}
+
+
+#rec23 {
+    height: 50px;
+    width: 160px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    right: 33%;
+}
+
+#rec24 {
+    height: 50px;
+    width: 160px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 89%;
+    right: 33%;
+}
+
+#rec25 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 95%;
+    right: 38%;
+}
+
+#rec26 {
+    height: 50px;
+    width: 210px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 100.55%;
+    right: 33%;
+}
