@@ -198,3 +198,32 @@ p {
     top: 46%;
     left: 53%;
 }
+
+#rec12 {
+    width: 50px;
+    height: 80px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 53%;
+    left: 45%;
+}
+
+#rec13 {
+    height: 50px;
+    width: 400px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 60%;
+}
+
+#rec14 {
+    height: 50px;
+    width: 90px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 60%;
+    right: 33%;
+}
