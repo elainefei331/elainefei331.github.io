@@ -178,3 +178,23 @@ p {
     top: 25.4%;
     left: 66.55%;
 }
+
+#rec10 {
+    width: 50px;
+    height: 90px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 40.5%;
+    left: 59%;
+}
+
+#rec11 {
+    width:120px;
+    height: 50px;
+    background-color: rgb(9, 51, 201);
+    z-index: 2;
+    position: absolute;
+    top: 46%;
+    left: 53%;
+}
