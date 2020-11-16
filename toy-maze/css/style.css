@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(166, 197, 224);
+}
+
+header {
+    font-size: 50px;
+    color: rgb(0, 45, 181);
+    font-family: fantasy,Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(0, 84, 187);
+    font-family: fantasy,Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(0, 88, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    margin:auto
+}
+
+.blue {
+    background: rgb(44, 82, 194);
+    box-sizing: border-box;
+    height: 80px;
+}
+
+.grey {
+    background: rgb(209, 209, 209);
+    box-sizing: border-box;
+    height: 80px;
+}
+
+.grey:hover{
+    background-color: orange;
+}
+
+.finish {
+    background: orange;
+    box-sizing: border-box;
+    height: 80px;
+}
+
+.finish:hover {
+    background-color: rgb(255, 73, 17);
+}
