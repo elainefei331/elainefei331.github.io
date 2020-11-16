@@ -6,7 +6,7 @@ window.addEventListener("load",function() {
         blue.addEventListener('mouseover', onHoverOverWalls);
     });
 
-    function onHoverOverWalls() {
+    function onHoverOverWalls(.blue) {
         //what you want to happen when someone hits the walls
     }
 
