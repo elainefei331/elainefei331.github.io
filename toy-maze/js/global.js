@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
 
     function onHoverOverWalls(blue) {
         if (!tag) {
-            alert('Do not hit the walls!');
+            alert('Do not hit the walls ;)');
             tag = true;
         }
         
