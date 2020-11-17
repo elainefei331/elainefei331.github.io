@@ -1,8 +1,11 @@
-window.addEventListener("load",function() {
+window.addEventListener("load", function () {
+
+    var tag = false;
+
     var blueSquares = document.querySelectorAll('.blue');
-    
-    blueSquares.forEach(function(blue) {
-        //do something with the individual dark blue square
+
+    blueSquares.forEach(function (blue) {
+        
         blue.addEventListener('mouseover', onHoverOverWalls);
     });
 
@@ -10,4 +13,4 @@ window.addEventListener("load",function() {
         //what you want to happen when someone hits the walls
     }
 
-})
+});
