@@ -9,8 +9,23 @@ window.addEventListener("load", function () {
         blue.addEventListener('mouseover', onHoverOverWalls);
     });
 
-    function onHoverOverWalls(.blue) {
-        //what you want to happen when someone hits the walls
+    function onHoverOverWalls(blue) {
+        if (!tag) {
+            alert('Do not hit the walls!');
+            tag = true;
+        }
+        
+    }
+    var yellowSquares = document.querySelectorAll('.finish');
+
+    yellowSquares.forEach(function (yellow) {
+        
+        yellow.addEventListener('mouseover', onHoverOver);
+    });
+
+    function onHoverOver(yellow) {
+        alert('You won!')
+        
     }
 
 });
