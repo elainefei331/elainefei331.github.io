@@ -25,6 +25,7 @@ body
     }
 
 
+
     .A {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -33,10 +34,12 @@ body
 
     @-webkit-keyframes glow {
         from{
-            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff6a5, 0 0 40px #fff27b, 0 0 50px #fff459, 0 0 60px #ffdc42, 0 0 70px #ffd901;
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff6a5, 0 0 40px #fff27b, 
+            0 0 50px #fff459, 0 0 60px #ffdc42, 0 0 70px #ffd901;
         }
         to {
-          text-shadow: 0 0 20px #fff, 0 0 30px #ffd901, 0 0 40px #ffdc42, 0 0 50px #fff459, 0 0 60px #fff27b, 0 0 70px #fff6a5, 0 0 80px #fff;
+          text-shadow: 0 0 20px #fff, 0 0 30px #ffd901, 0 0 40px #ffdc42, 0 0 50px #fff459, 
+          0 0 60px #fff27b, 0 0 70px #fff6a5, 0 0 80px #fff;
         }
       }
 
