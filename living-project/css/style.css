@@ -128,3 +128,68 @@ opacity: 1;
 .carousel-item.active.carousel-item-right {
   transform: translateX(100%);
 }
+
+#maze{
+  font-size: 20px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+  text-align: center;
+}
+
+#nametag{
+  font-size: 20px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+  text-align: center;
+}
+
+#interview{
+  font-size: 20px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+  text-align: center;
+}
+
+#expressivewebsite{
+  font-size: 20px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+  text-align: center;
+}
+
+#abstractwebsite{
+  font-size: 20px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+  text-align: center;
+}
+
+#maze-detail {
+  font-size: 18px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+}
+
+#nametag-detail {
+  font-size: 18px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+}
+
+#interview-detail {
+  font-size: 18px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+}
+
+#expressivewebsite-detail {
+  font-size: 18px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+}
+
+#abstractwebsite-detail {
+  font-size: 18px;
+  color:rgb(30, 50, 33);
+  font-family: fantasys;
+}
