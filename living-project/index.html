@@ -3,7 +3,17 @@
 
 <head>
   <title>Elaine's Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elaine's Final Portfolio Living Project Website" />
+  <meta name="keywords" content="HTML, CSS, JavaScript, Elaine Fei" />
+  <meta property="og:type" content="Website" />
+  <meta property="og:title" content="Elaine's Final Portfolio Living Project Website" />
+  <meta property="og:description" content="Elaine's Final Portfolio Living Project Website for Core 1 Interaction" />
+  <meta property="og:url" content="https://github.com/elainefei331/elainefei331.github.io" />
+  <meta property="og:image" content="https://github.com/elainefei331/elainefei331.github.io/blob/master/living-project/pictures/background.jpg" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="309" /> 
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="./css/style.css">
   
 
@@ -30,7 +40,7 @@
           <div id="maze" class="carousel-item">
             <div>
               <a href="javascript:void(0);" onclick="showDetail('maze')">
-                <img src="./pictures/maze.png" style="width: 100%;"></img>
+                <img src="./pictures/maze.png" alt="Picture of Maze Project" style="width: 100%;"></img>
               </a>
             </div>
             <div>
@@ -40,7 +50,7 @@
           <div id="nametag" class="carousel-item">
             <div>
               <a href="javascript:void(0);" onclick="showDetail('nametag')">
-                <img src="./pictures/nametag.png" style="width: 100%;"></img>
+                <img src="./pictures/nametag.png" alt="Picture of Nametag Project" style="width: 100%;"></img>
               </a>
             </div>
             <div>
@@ -50,7 +60,7 @@
           <div id="interview" class="carousel-item">
             <div>
               <a href="javascript:void(0);" onclick="showDetail('interview')">
-                <img src="./pictures/interview.png" style="width: 100%;"></img>
+                <img src="./pictures/interview.png" alt="Picture of Interview Project" style="width: 100%;"></img>
               </a>
             </div>
             <div>
@@ -60,7 +70,7 @@
           <div id="expressivewebsite" class="carousel-item">
             <div>
               <a href="javascript:void(0);" onclick="showDetail('expressivewebsite')">
-                <img src="./pictures/expressive-text.png" style="width: 100%;"></img>
+                <img src="./pictures/expressive-text.png" alt="Picture of Expressive Website Project" style="width: 100%;"></img>
               </a>
             </div>
             <div>
@@ -70,7 +80,7 @@
           <div id="abstractwebsite" class="carousel-item">
             <div>
               <a href="javascript:void(0);" onclick="showDetail('abstractwebsite')">
-                <img src="./pictures/abstract-website.png" style="width: 100%;"></img>
+                <img src="./pictures/abstract-website.png" alt="Picture of Abstract Website Project" style="width: 100%;"></img>
               </a>
             </div>
             <div>
@@ -91,69 +101,74 @@
         <div id="maze-detail" class="detail-item hide">
           <div>
             <a href="../toy-maze/index.html">
-            <img src="./pictures/maze.png" style="width: 60%;"></img>
+            <img src="./pictures/maze.png"  class="image-detail" alt="Picture of Maze Project"></img>
           </a>
           </div>
-          <div>
+          <div class="written-description">
             This is a toy maze that I have created to let the users interact with the webpage! The game needs the user to control the rectangle and walk out the maze without touching the side walls!
           </div>
         </div>
         <div id="nametag-detail" class="detail-item hide">
           <div>
             <a href="../Nametag/Nametag.html">
-            <img src="./pictures/nametag.png" style="width: 60%;"></img>
+            <img src="./pictures/nametag.png"   class="image-detail" alt="Picture of Nametag Project"></img>
           </a>
           </div>
-          <div>
+          <div class="written-description">
             This is a nametag project that I have created to show my personal details along with some interesting and cute designs!
           </div>
         </div>
         <div id="interview-detail" class="detail-item hide">
           <div>\<a href="../Interview/index.html">
-            <img src="./pictures/interview.png" style="width: 60%;"></img>
+            <img src="./pictures/interview.png"   class="image-detail" alt="Picture of Interview Project"></img>
           </a> 
           </div>
-          <div>
+          <div class="written-description">
             This is a interview project that I have created, it shows some questions and answers about my partner Whitley!
           </div>
         </div>
         <div id="expressivewebsite-detail" class="detail-item hide">
           <div>
             <a href="../expressive-text/index.html">
-            <img src="./pictures/expressive-text.png" style="width: 60%;"></img>
+            <img src="./pictures/expressive-text.png"   class="image-detail" alt="Picture of Expressive Website Project"></img>
           </a>
           </div>
-          <div>
-            This is a toy maze that I have created to let the users interact with the webpage! The game needs the user to control the rectangle and walk out the maze without touching the side walls!
+          <div class="written-description">
+            This is an expressive website that I have created for the song 'Fly Me To The Moon'. I have included many interesting animations and effects on the website, please check it out!
           </div>
         </div>
         <div id="abstractwebsite-detail" class="detail-item hide">
           <div>
             <a href="../abstract-website/index.html">
-            <img src="./pictures/abstract-website.png" style="width: 60%;"></img>
+            <img src="./pictures/abstract-website.png"   class="image-detail" alt="Picture of Abstract Website Project"></img>
           </a>
           </div>
-          <div>
-            This is a toy maze that I have created to let the users interact with the webpage! The game needs the user to control the rectangle and walk out the maze without touching the side walls!
+          <div class="written-description">
+            This is an abstract website that I have create that shows the layout of main page of 'The Met Museum's website. Please check it out!
           </div>
         </div>
       </div>
     </div>
+
+
     <div class="sidebar">
-      <div style="padding: 12px 0px 0px 12px ">
+      <button onclick="myFunction()" class="dropbtn">MENU</button>
+        <div id="myDropdown" class="dropdown-content">
         <a href="javascript:void(0);" onclick="switchItem('maze')">MAZE</a>
         <a href="javascript:void(0);" onclick="switchItem('nametag')">NAMETAG</a>
         <a href="javascript:void(0);" onclick="switchItem('interview')">INTERVIEW</a>
         <a href="javascript:void(0);" onclick="switchItem('expressivewebsite')">EXPRESSIVE WEBSITE</a>
         <a href="javascript:void(0);" onclick="switchItem('abstractwebsite')">ABSTRACT WEBSITE</a>
+        
+        <br></br>
 
         <audio id="player" controls autoplay>
           <source src="mp3/Yiruma, (이루마) - River Flows in You.mp3" type="audio/mpeg">
       </audio>
 
         <a href="./index2.html">ABOUT ME</a>
-      </div>
       
+      </div>
     </div>
   </div>
 
